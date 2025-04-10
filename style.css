@@ -23,6 +23,10 @@ button {
     border: none;
 }
 
+a:hover {
+  transform: scale(1.1); 
+}
+
 .header{ 
     display: flex;
     justify-content: space-between;
@@ -54,6 +58,7 @@ button {
     display: flex;
     padding: 0 50px;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .title {
@@ -65,7 +70,7 @@ button {
     line-height: 1;
 }
 
-.text {
+.text-title {
     font-size: 18px;
     color: #e5e7eb;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -86,3 +91,57 @@ button:active {
     background-color: #3882f6;
      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
+
+.container-2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.child-container-2 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+[class*="box"] {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.text-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    height: 120px;
+    width: 125px;
+    
+}
+
+.container-4{
+    background-color: rgb(160, 156, 156);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
