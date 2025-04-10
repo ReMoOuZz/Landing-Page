@@ -1,9 +1,10 @@
 # Landing-Page
 
-Nom du Projet : Landing Page
+Project Name: Landing Page
+This is a coding learning exercise.
+It is a project based on using Flexbox for layout, and it is part of the lessons from the excellent website "The Odin Project".
 
-Ceci est un exercire d'apprentissage de code.
-C'est un projet basé sur l'utilisation de FlexBox pour la mise en Page, qui fait partie des leçon de l'exellent site "The Odin Project"
+The goal is to build the homepage of a website from scratch based on a predefined design.
+The final result mockups, as well as the font and color styles, are located in the images folder.
 
-Le but est de créer la page d'acceuil d'un site selon un modèle prédéfinis en partant de zéro.
-Les modèles de résultat finis ainsi que les styles de polices et de couleurs sont dans le dossier images.
+All images in the project are royality-free.
