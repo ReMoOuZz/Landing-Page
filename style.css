@@ -5,11 +5,13 @@
 
 body {
     background-color: #1f2937;
-    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 img {
-    max-width: 400px;
+    max-width: 465px;
 }
 
 h1 {
@@ -20,18 +22,22 @@ h1 {
 button {
     padding: 5px 25px; 
     border-radius: 5px;
-    border: none;
 }
 
-a:hover {
-  transform: scale(1.1); 
+ul {
+    list-style-type: none;
+}
+
+li:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease; 
 }
 
 .header{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     padding: 0 50px;
 }
 
@@ -40,8 +46,8 @@ a:hover {
     padding: 0;
     gap: 10px;
 }
-
-[class*="link"] {
+ 
+ [class*="link"] {
     font-size: 18px;
     font-weight: 500;
     text-decoration: none;
@@ -61,13 +67,20 @@ a:hover {
     margin-bottom: 30px;
 }
 
+.left-part {
+   max-height: 450px;
+}
+
+.img {
+    display: flex;
+    align-items: end;
+}
 .title {
     display: flex;
     align-items: flex-start;
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    line-height: 1;
 }
 
 .text-title {
@@ -76,21 +89,29 @@ a:hover {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.button-1,
-.button-2 {
+.button-1 {
     background-color: #3882f6;
+    border: none;
     color: white;
     font-size: 16px;
 }
 button:hover {
     background-color: #70a837;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: scale(1.1);
+    transition: transform 0.2s ease; 
     }
       
 button:active {
     background-color: #3882f6;
-     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     }
+
+.btc-img {
+    border: 5px solid white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(0, 0, 0);
+ }
 
 .container-2 {
     background-color: #fff;
@@ -127,21 +148,107 @@ button:active {
     gap: 50px;
 }
 
-.text1,
-.text2,
-.text3,
-.text4 {
+.text-container {
     height: 120px;
     width: 125px;
     
 }
 
-.container-4{
-    background-color: rgb(160, 156, 156);
+.container-4 {
+    background-color: rgb(202, 196, 196);
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.child-container-4 { 
+    display: flex;
+    align-items: center;
+    width: 45%;
+}
+
+.paragraph-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.sign {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container-5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 250px;
+    background-color: #fff;
 }
 
+.container-child-5{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    height: 120px;
+    width: 900px;
+}
 
+.call {
+    display: flex;
+    margin: 0 20px;
+    padding: 30px;
+    width: 50%;
+    
+}
 
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.container-child-6 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+#paragraph-1 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#paragraph-2 {
+    margin: 0;
+    font-size: 14px;
+}
+  
+.button-2 {
+    background-color: #3882f6;
+    border: white solid;
+    color: white;
+    font-size: 16px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+}
